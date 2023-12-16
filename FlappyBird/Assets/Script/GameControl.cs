@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-
+using Unity.Collections;
 
 public class GameControl : MonoBehaviour
 {
     public static GameControl instance;
     public GameObject gameOverText;
     public TextMeshProUGUI ScoreText;
-
+    public float scrollSpeed = -1.5f;
 
     public bool gameOver = false;
     // Start is called before the first frame update

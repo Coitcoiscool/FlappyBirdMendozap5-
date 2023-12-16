@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7d99bb66885eb9449e0a52c1fa8c4a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upForce: 30
+  upForce: 200
 --- !u!95 &74621780
 Animator:
   serializedVersion: 5
@@ -629,6 +629,7 @@ MonoBehaviour:
   gameOverText: {fileID: 757257346}
   ScoreText: {fileID: 0}
   scrollSpeed: -1.5
+  scoreText: {fileID: 878502479}
   gameOver: 0
 --- !u!4 &312009200
 Transform:
@@ -1319,7 +1320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 58.5}
   m_SizeDelta: {x: 166.03, y: 27.3079}
   m_Pivot: {x: 0.5, y: 0.49999982}
 --- !u!222 &878502478
@@ -1352,7 +1353,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 587b6f7ff48c3c14b8ea4dbcf18466ca, type: 3}
-    m_FontSize: 32
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
